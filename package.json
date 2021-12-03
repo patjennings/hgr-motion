@@ -1,0 +1,44 @@
+{
+    "name": "sample",
+    "version": "1.0.0",
+    "description": "Starter kit with webpack",
+    "main": "index.js",
+    "dependencies": {
+	"bootstrap": "^5.1.3",
+	"lottie-web": "^5.8.1",
+	"start-concurrently": "^1.0.1"
+    },
+    "devDependencies": {
+	"@babel/cli": "^7.16.0",
+	"@babel/core": "^7.16.0",
+	"babel-loader": "^8.2.3",
+	"copy-webpack-plugin": "^10.0.0",
+	"css-loader": "^6.5.1",
+	"file-loader": "^6.2.0",
+	"mini-css-extract-plugin": "^2.4.5",
+	"node-sass": "^6.0.1",
+	"postcss": "^8.4.4",
+	"sass-loader": "^12.3.0",
+	"style-loader": "^3.3.1",
+	"terser-webpack-plugin": "^5.2.5",
+	"uglify-js": "^3.14.4",
+	"webpack": "^5.64.4",
+	"webpack-cli": "^4.9.1"
+    },
+    "scripts": {
+	"test": "echo \"Error: no test specified\" && exit 1",
+	"start": "start-concurrently",
+	"start-server": "python3 -m http.server 4480",
+	"start-webpack": "webpack"
+    },
+    "repository": {
+	"type": "git",
+	"url": "git+https://gitlab.com/patjennings/content-slices-navigation.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+	"url": "https://gitlab.com/patjennings/content-slices-navigation/issues"
+    },
+    "homepage": "https://gitlab.com/patjennings/content-slices-navigation#README"
+}
